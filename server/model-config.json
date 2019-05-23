@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "YKEKY_User": {
+    "dataSource": "db",
+    "public": true
+  },
+  "YKEKY_AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "YKEKY_Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "YKEKY_RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "YKEKY_ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "YKEKY_Articulos": {
+    "dataSource": "db",
+    "public": true
+  },
+  "YKEKY_Estados": {
+    "dataSource": "db",
+    "public": true
+  },
+  "YKEKY_Municipios": {
+    "dataSource": "db",
+    "public": true
+  },
+  "YKEKY_Universidades": {
+    "dataSource": "db",
+    "public": true
+  }
+}

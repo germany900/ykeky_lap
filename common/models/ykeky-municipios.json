@@ -1,0 +1,25 @@
+{
+  "name": "YKEKY_Municipios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "Nombre_Municipios": {
+      "type": "string",
+      "required": true
+    },
+    "fk_Universidades": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "YKEKY_Estados",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "Nombre_Estado": {
+      "type": "string",
+      "required": true
+    },
+    "fk_Municipios": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
