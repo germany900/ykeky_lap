@@ -7,7 +7,13 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "principals": {
+      "type": "hasMany",
+      "model": "YKEKY_RoleMapping",
+      "foreignKey": "roleId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

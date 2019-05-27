@@ -7,7 +7,13 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "role": {
+      "type": "belongsTo",
+      "model": "YKEKY_Role",
+      "foreignKey": "roleId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -27,7 +27,7 @@
   },
   "YKEKY_RoleMapping": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "YKEKY_ACL": {
     "dataSource": "db",

@@ -49,8 +49,8 @@
     },
     {
       "accessType": "READ",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
+      "principalType": "USER",
+      "principalId": "Asistente_contenido",
       "permission": "ALLOW"
     }
     
