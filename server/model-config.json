@@ -48,5 +48,9 @@
   "YKEKY_Universidades": {
     "dataSource": "db",
     "public": true
+  },
+  "YKEKY_Profile": {
+    "dataSource": "db",
+    "public": true
   }
 }

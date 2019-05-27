@@ -8,9 +8,9 @@
   "properties": {
     "ttl": {
       "type": "number",
+      "description": "time to live in day (1 day by default)",
       "ttl": true,
-      "default": 86400,
-      "description": "time to live in day (1 day by default)"
+      "default": 86400
     }
   },
   "validations": [],

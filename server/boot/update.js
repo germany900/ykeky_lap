@@ -8,6 +8,8 @@ module.exports = function(app) {
     var ykeky_aceesstoken = app.models.YKEKY_AccessToken;
     const ykeky_rolemapping = app.models.YKEKY_RoleMapping;
     const ykeky_role = app.models.YKEKY_Role;
+    const ykeky_profile = app.models.YKEKY_Profile;
+    
 
     mysqlDs.autoupdate('YKEKY_Articulos', function(err) {
         if (err) throw err;
@@ -54,6 +56,12 @@ module.exports = function(app) {
       mysqlDs.autoupdate('YKEKY_Role', function(err) {
         if (err) throw err;
         console.log('\nAutoupdated table `YKEKY_Role`.');
+    
+      });
+
+      mysqlDs.autoupdate('YKEKY_Profile', function(err) {
+        if (err) throw err;
+        console.log('\nAutoupdated table `YKEKY_Profile`.');
     
       });
 

@@ -2,4 +2,5 @@
 
 module.exports = function(Ykekyarticulos) {
 
+    Ykekyarticulos.disableRemoteMethodByName('deleteById');
 };
