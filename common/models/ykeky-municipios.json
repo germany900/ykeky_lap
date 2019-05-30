@@ -19,7 +19,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Estados": {
+      "type": "belongsTo",
+      "model": "YKEKY_Estados",
+      "foreignKey": "fk_Municipios"
+    }
+  },
   "acls": [],
   "methods": {}
 }

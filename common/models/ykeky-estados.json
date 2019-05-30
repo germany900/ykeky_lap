@@ -13,13 +13,16 @@
     "Nombre_Estado": {
       "type": "string",
       "required": true
-    },
-    "fk_Municipios": {
-      "type": "number"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Municipios": {
+      "type": "hasMany",
+      "model": "YKEKY_Municipios",
+      "foreignKey": "fk_Municipio"
+    }
+  },
   "acls": [],
   "methods": {}
 }
