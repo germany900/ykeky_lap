@@ -23,7 +23,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Municipios": {
+      "type": "belongsTo",
+      "model": "YKEKY_Municipios",
+      "foreignKey": "fk_Universidades"
+    }
+  },
   "acls": [],
   "methods": {}
 }
