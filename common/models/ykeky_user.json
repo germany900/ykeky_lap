@@ -7,10 +7,12 @@
   },
   "properties": {
     "nombre": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "apellidos": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "fk_test": {
       "type": "number"
