@@ -1,16 +1,11 @@
-'use strict';
+module.exports = function(email) {
 
-module.exports = function(Ykekyarticulos) {
-
-    Ykekyarticulos.disableRemoteMethodByName('deleteById');
-
-
-    Ykekyarticulos.sendEmail = function(msg, cb) {
-        Ykekyarticulos.app.models.Email.send({
-            to: "carmelo402.ja@gmail.com, lonch97@gmail.com", 
+    email.sendEmail = function(msg, cb) {
+        email.app.models.Email.send({
+            to: "carmelo402.ja@gmail.com",
             from: "termineitor009@gmail.com",
             subject: "Your custom email subject here",
-            text: "Todo el mundo sabe que el negro es muuuuuuuuuuuuuuuuy gay xD",
+            text: "Prueba de envio de correo",
             html: msg
         }, function(err, mail) {
             console.log('email sended !!!');
@@ -19,7 +14,7 @@ module.exports = function(Ykekyarticulos) {
         cb(null,'mesaje que muestra la apo, solo para probar....' + msg);
     }
 
-    Ykekyarticulos.remoteMethod(
+    Note.remoteMethod(
         'sendEmail',
         {
             http: {path:'/sendEmail',verb:'get'},

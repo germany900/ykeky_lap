@@ -15,7 +15,10 @@
   },
   "YKEKY_User": {
     "dataSource": "db",
-    "public": true
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "YKEKY_AccessToken": {
     "dataSource": "db",
@@ -27,7 +30,7 @@
   },
   "YKEKY_RoleMapping": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "YKEKY_ACL": {
     "dataSource": "db",
@@ -52,5 +55,8 @@
   "YKEKY_Profile": {
     "dataSource": "db",
     "public": true
-  }
+  },
+  "Email": {
+    "dataSource": "Email"
+}
 }
