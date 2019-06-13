@@ -54,15 +54,11 @@
     "public": true
   },
   "YKEKY_Profile": {
-    "dataSou  rce": "db",
+    "dataSource": "db",
     "public": true
   },
   "Email": {
     "dataSource": "Email"
-  },
-  "ApplicationCredential": {
-    "dataSource": "db",
-    "public": true
   },
   "UserCredential": {
     "dataSource": "db",
