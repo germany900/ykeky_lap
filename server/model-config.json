@@ -1,6 +1,7 @@
 {
   "_meta": {
     "sources": [
+      "../node_modules/loopback-component-passport/lib/models",
       "loopback/common/models",
       "loopback/server/models",
       "../common/models",
@@ -15,7 +16,10 @@
   },
   "YKEKY_User": {
     "dataSource": "db",
-    "public": true
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "YKEKY_AccessToken": {
     "dataSource": "db",
@@ -27,7 +31,7 @@
   },
   "YKEKY_RoleMapping": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "YKEKY_ACL": {
     "dataSource": "db",
@@ -50,6 +54,21 @@
     "public": true
   },
   "YKEKY_Profile": {
+    "dataSou  rce": "db",
+    "public": true
+  },
+  "Email": {
+    "dataSource": "Email"
+  },
+  "ApplicationCredential": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserCredential": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserIdentity": {
     "dataSource": "db",
     "public": true
   }
