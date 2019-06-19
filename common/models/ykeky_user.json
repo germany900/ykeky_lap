@@ -6,13 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "nombre": {
-      "type": "string",
-      "required": true
+    "first_name": {
+      "type": "string"
     },
-    "apellidos": {
-      "type": "string",
-      "required": true
+    "last_name": {
+      "type": "string"
     },
     "fk_test": {
       "type": "number"

@@ -10,17 +10,19 @@
     "connector": "mysql"
   },
   "Email": {
-    "name": "Email", 
+    "name": "Email",
     "connector": "mail",
-    "transports": [{
-    "type": "SMTP",
-    "host": "smtp.gmail.com",
-    "secure": true,
-    "port": 465,
-    "auth": {
-       "user": "termineitor009@gmail.com",
-       "pass": "3l4rt3devivir"
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "auth": {
+          "user": "termineitor009@gmail.com",
+          "pass": "3l4rt3devivir"
         }
-   }]
+      }
+    ]
   }
 }

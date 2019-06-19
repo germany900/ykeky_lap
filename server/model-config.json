@@ -60,11 +60,11 @@
   "Email": {
     "dataSource": "Email"
   },
-  "UserCredential": {
+  "userIdentity": {
     "dataSource": "db",
     "public": true
   },
-  "UserIdentity": {
+  "userCredential": {
     "dataSource": "db",
     "public": true
   }
