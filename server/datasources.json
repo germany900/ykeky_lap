@@ -1,12 +1,12 @@
 {
-  "db": {
-    "host": "127.0.0.1",
+  "gator": {
+    "host": "162.241.2.113",
     "port": 3306,
     "url": "",
-    "database": "fyke",
-    "password": "password",
-    "name": "db",
-    "user": "root",
+    "database": "teamblac_ykeky",
+    "password": "german1",
+    "name": "gator",
+    "user": "teamblac_german",
     "connector": "mysql"
   },
   "Email": {
@@ -24,15 +24,5 @@
         }
       }
     ]
-  },
-  "gator": {
-    "host": "162.241.2.113",
-    "port": 3306,
-    "url": "",
-    "database": "teamblac_ykeky",
-    "password": "german1",
-    "name": "gator",
-    "user": "teamblac_german",
-    "connector": "mysql"
   }
 }
