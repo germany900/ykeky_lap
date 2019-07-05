@@ -15,57 +15,57 @@
     ]
   },
   "YKEKY_User": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true,
     "options": {
       "emailVerificationRequired": true
     }
   },
   "YKEKY_AccessToken": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": false
   },
   "YKEKY_Role": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": false
   },
   "YKEKY_RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": false
   },
   "YKEKY_ACL": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": false
   },
   "YKEKY_Articulos": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   },
   "YKEKY_Estados": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   },
   "YKEKY_Municipios": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   },
   "YKEKY_Universidades": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   },
   "YKEKY_Profile": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   },
   "Email": {
     "dataSource": "Email"
   },
   "userIdentity": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   },
   "userCredential": {
-    "dataSource": "db",
+    "dataSource": "gator",
     "public": true
   }
 }

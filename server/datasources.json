@@ -24,5 +24,15 @@
         }
       }
     ]
+  },
+  "gator": {
+    "host": "162.241.2.113",
+    "port": 3306,
+    "url": "",
+    "database": "teamblac_ykeky",
+    "password": "german1",
+    "name": "gator",
+    "user": "teamblac_german",
+    "connector": "mysql"
   }
 }
