@@ -158,6 +158,8 @@ app.get('/auth/logout', function(req, res, next) {
   res.redirect('/');
 });
 
+app.set ('host', process.env.HOST || '0.0.0.0');
+
 app.start = function() {
   // start the web server
   return app.listen(function() {
@@ -173,5 +175,5 @@ app.start = function() {
 
 // start the server if `$ node server.js`
 if (require.main === module) {
-  app.start();
+ app.start();
 }
