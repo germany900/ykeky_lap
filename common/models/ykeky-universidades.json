@@ -1,35 +1,42 @@
 {
   "name": "YKEKY_Universidades",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "id": {
+    "id_universidades": {
       "type": "number",
       "required": true
     },
     "nombre": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "direccion": {
-      "type": "string",
-      "required": true
+    "logo": {
+      "type": "string"
     },
-    "fk_tipo": {
-      "type": "number"
+    "calle": {
+      "type": "string"
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "municipio": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "Municipios": {
-      "type": "belongsTo",
-      "model": "YKEKY_Municipios",
-      "foreignKey": "fk_Universidades"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

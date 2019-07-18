@@ -7,6 +7,8 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && npm audit",
     "prod": "forever start server/server.js"
   },
   "dependencies": {
@@ -40,4 +42,3 @@
   "license": "UNLICENSED",
   "description": "ykeky"
 }
-

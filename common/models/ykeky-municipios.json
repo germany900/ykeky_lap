@@ -19,18 +19,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "Estados": {
-      "type": "belongsTo",
-      "model": "YKEKY_Estados",
-      "foreignKey": "fk_Municipios"
-    },
-    "Universidades": {
-      "type": "hasMany",
-      "model": "YKEKY_Universidades",
-      "foreignKey": "fk_Universidades"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

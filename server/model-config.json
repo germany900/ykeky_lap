@@ -49,10 +49,6 @@
     "dataSource": "gator",
     "public": true
   },
-  "YKEKY_Universidades": {
-    "dataSource": "gator",
-    "public": true
-  },
   "YKEKY_Profile": {
     "dataSource": "gator",
     "public": true
@@ -65,6 +61,10 @@
     "public": true
   },
   "userCredential": {
+    "dataSource": "gator",
+    "public": true
+  },
+  "YKEKY_Universidades": {
     "dataSource": "gator",
     "public": true
   }
